@@ -15,3 +15,7 @@ pinkButton.addEventListener('click', makePink)
 function makePink(){
     document.body.style.backgroundColor = 'pink'
 }
+
+document.getElementById('golden').addEventListener('click', function(){
+   document.body.style.backgroundColor = 'goldenrod'
+})
